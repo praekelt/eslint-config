@@ -2,6 +2,7 @@
     "name": "@prk/eslint-config",
     "version": "0.0.1",
     "description": "Praekelt Consulting base ESLint config.",
+    "repository": "git@github.com:praekelt/eslint-config.git",
     "main": "index.js",
     "license": "BSD-3-Clause",
     "devDependencies": {
