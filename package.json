@@ -1,18 +1,15 @@
 {
     "name": "@prk/eslint-config",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Praekelt Consulting base ESLint config.",
     "repository": "git@github.com:praekelt/eslint-config.git",
     "main": "index.js",
     "license": "BSD-3-Clause",
-    "devDependencies": {
-        "js-yaml": "^3.12.0",
-        "eslint-config-prettier": ">= 2.9.0",
-        "eslint-config-recommended": ">= 2.0.0",
-        "eslint-plugin-react": ">= 7.9.1"
+    "dependencies": {
+        "js-yaml": "^3.12.0"
     },
     "peerDependencies": {
-        "eslint": ">= 3",
+        "eslint": ">= 4",
         "eslint-config-prettier": ">= 2.9.0",
         "eslint-config-recommended": ">= 2.0.0",
         "eslint-plugin-react": ">= 7.9.1"
