@@ -6,9 +6,11 @@
     "main": "index.js",
     "license": "BSD-3-Clause",
     "dependencies": {
-        "eslint": ">= 4",
         "eslint-config-prettier": ">= 2.9.0",
         "eslint-config-recommended": ">= 2.0.0",
         "eslint-plugin-react": ">= 7.9.1"
+    },
+    "peerDependencies": {
+        "eslint": ">= 4"
     }
 }
